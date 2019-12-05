@@ -1,7 +1,7 @@
 var friends = [
     {
       name: "Eric Cartman",
-      photo: "https://st-listas.20minutos.es/images/2013-02/354750/3906593_640px.jpg?1539287571",
+      photo: "https://media.giphy.com/media/3oz8xuedRtky2Akcko/giphy.gif",
       scores: [
         "5",
         "1",
@@ -17,7 +17,7 @@ var friends = [
     },
     {
       name: "Kenny McCormick",
-      photo: "https://st-listas.20minutos.es/images/2013-02/354750/3906454_640px.jpg?1539287571",
+      photo: "https://media.giphy.com/media/3oEduN3KZyvqTIEmxa/giphy.gif",
       scores: [
         "4",
         "2",
@@ -33,7 +33,7 @@ var friends = [
     },
     {
       name: "Kyle Broflovski",
-      photo: "https://st-listas.20minutos.es/images/2013-02/354750/3906592_640px.jpg?1539287571",
+      photo: "https://media.giphy.com/media/3o6ZsVQzxNHAqEQVgs/giphy.gif",
       scores: [
         "5",
         "2",
@@ -49,7 +49,7 @@ var friends = [
     },
     {
       name: "Butters Stotch",
-      photo: "https://st-listas.20minutos.es/images/2013-02/354750/3906590_640px.jpg?1539287571",
+      photo: "https://media.giphy.com/media/26gJANcbS5UIyoHJe/giphy.gif",
       scores: [
         "3",
         "3",
@@ -65,7 +65,7 @@ var friends = [
     },
     {
       name: "Stan Marsh",
-      photo: "https://st-listas.20minutos.es/images/2013-02/354750/3906591_640px.jpg?1539287571",
+      photo: "https://media.giphy.com/media/l2SqacbQfWDZeLOjm/giphy.gif",
       scores: [
         "4",
         "3",
@@ -81,7 +81,7 @@ var friends = [
     },
     {
       name: "Tweek Tweak",
-      photo: "https://st-listas.20minutos.es/images/2013-02/354750/3906594_640px.jpg?1539287571",
+      photo: "https://media.giphy.com/media/3o6Zt2fGjUFnvnnjDG/giphy.gif",
       scores: [
         "4",
         "4",
@@ -95,8 +95,7 @@ var friends = [
         "5"
       ]
     }
-  
   ];
   
-  // export friend-finder array
+  // Export friend-finder array
   module.exports = friends;

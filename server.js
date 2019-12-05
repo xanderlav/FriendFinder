@@ -1,7 +1,7 @@
 // Declaring global variables
+var path = require("path");
 var express = require("express");
 var bodyParser = require("body-parser");
-var path = require("path");
 
 var app = express();
 
@@ -14,9 +14,8 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 app.use('/static', express.static(path.join(__dirname, 'app/public')))
 
-// ================================================================================
-require("./app/routing/api-routes.js")(app);
-require("./app/routing/html-routes.js")(app);
+require("./app/routing/apiRoutes.js")(app);
+require("./app/routing/htmlRoutes.js")(app);
 
 // The below code effectively "starts" our server
 app.listen(PORT, function() {

@@ -10,11 +10,10 @@ module.exports = function(app){
 
   // client submits a form and it submits data to the app server
   app.post('/api/friends', (req, res) => {
-
-    var bestBuddy = {
+      var bestBuddy = {
       name: "",
       photo: "",
-      friendDifference: 1000
+      buddyCompatibility: 1000
     };
 
     // Took the result of the user's survey POST and parse it.
@@ -33,12 +32,12 @@ module.exports = function(app){
         totalDif += Math.abs(parseInt(userScores[j]) - parseInt(friends[i].scores[j]));
 
         // Determine best match, if sum of differences is less then the differences of the current
-        if (totalDif <= bestBuddy.friendDifference) {
+        if (totalDif <= bestBuddy.buddyCompatibility) {
 
           // Reset the bestBuddy to be the new friend.
           bestBuddy.name = friends[i].name;
           bestBuddy.photo = friends[i].photo;
-          bestBuddy.friendDifference = totalDif;
+          bestBuddy.buddyCompatibility = totalDif;
         }
       }
     }

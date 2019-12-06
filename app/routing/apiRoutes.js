@@ -43,6 +43,7 @@ module.exports = function(app){
     }
 
     // Storage client data to the DB 
+    console.log(userData);
     friends.push(userData);
     // Return with the user's bestBuddy
     res.json(bestBuddy);

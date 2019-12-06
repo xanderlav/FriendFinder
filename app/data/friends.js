@@ -94,7 +94,87 @@ var friends = [
         "4",
         "5"
       ]
-    }
+    },
+    {
+      "name": "Johnny M. Entero",
+      "photo": "https://media.giphy.com/media/WyyhtSnaQl8Eo/giphy.gif",
+      "scores": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "1",
+      "5",
+      "5",
+      "5",
+      "5",
+      "1"
+      ]
+      },
+      {
+        "name": "Elmira J Food",
+        "photo": "https://media.giphy.com/media/11SaNBxhbpMXzG/giphy.gif",
+        "scores": [
+        "4",
+        "5",
+        "3",
+        "5",
+        "5",
+        "2",
+        "4",
+        "5",
+        "4",
+        "3"
+        ]
+        },
+        {
+          "name": "Reese",
+          "photo": "https://media.giphy.com/media/JrmNo75ImqCzu/giphy.gif",
+          "scores": [
+          "5",
+          "5",
+          "5",
+          "3",
+          "2",
+          "5",
+          "1",
+          "5",
+          "4",
+          "1"
+          ]
+          },
+          {
+            "name": "Francis",
+            "photo": "https://media.giphy.com/media/kZIhWs3qtRNDy/giphy.gif",
+            "scores": [
+            "5",
+            "5",
+            "5",
+            "5",
+            "3",
+            "5",
+            "3",
+            "5",
+            "4",
+            "3"
+            ]
+            },
+            {
+              "name": "Lois",
+              "photo": "https://media.giphy.com/media/4RZgG6wU5BQkM/giphy.gif",
+              "scores": [
+              "4",
+              "5",
+              "4",
+              "1",
+              "1",
+              "5",
+              "3",
+              "5",
+              "4",
+              "5"
+              ]
+              }
   ];
   
   // Export friend-finder array

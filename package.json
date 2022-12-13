@@ -4,7 +4,7 @@
   "description": "app to help you to find a new buddy",
   "main": "server.js",
   "dependencies": {
-     "express": "^4.16.3"
+     "express": "^4.17.3"
   },
   "scripts": {
     "start": "node server.js"
